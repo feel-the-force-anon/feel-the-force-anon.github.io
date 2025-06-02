@@ -25,20 +25,19 @@ body, html {
     z-index: 2;
 }
 
+
 .first-page-title {
-    /* Center your content vertically and horizontally */
-    position:absolute;
-    transform: translateX(5%);
+    position: absolute;
     top: 5%;
-    right: 25;
-    /* transform: translate(-50%, -50%); */
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 90%; 
     z-index: 3;
-    color: #fff; /* Set the color for your content */
+    color: #fff;
     background-color: rgba(0, 0, 0, 0.4);
     padding: 1em;
     text-align: center;
 }
-
 .first-page-video-speed {
     /* Center your content vertically and horizontally */
     position: absolute;
